@@ -1,0 +1,20 @@
+From: attacker@paypal-security.com
+To: victim@example.com
+Subject: Urgent: Verify Your PayPal Account Immediately
+Date: Mon, 16 Mar 2026 13:40:00 -0500
+Message-ID: <12345@example.com>
+Received: from unknown (185.23.54.10)
+Authentication-Results: spf=fail dkim=none dmarc=fail
+
+Dear Customer,
+
+We detected unusual activity on your PayPal account.
+Your account will be temporarily suspended unless you verify it immediately.
+
+Please confirm your account information here:
+http://paypal-security-check.com/verify
+
+Failure to verify within 24 hours will result in permanent suspension.
+
+Thank you,
+PayPal Security Team

@@ -1,0 +1,26 @@
+From: notifications@universityofwinnipeg.ca
+To: student@example.com
+Subject: Course Registration Confirmation
+Date: Mon, 16 Mar 2026 14:10:00 -0500
+Message-ID: <67890@universityofwinnipeg.ca>
+Return-Path: <notifications@universityofwinnipeg.ca>
+Received: from mail.universityofwinnipeg.ca (mail.universityofwinnipeg.ca [142.132.10.25])
+        by mx.recipient.com with ESMTPS id def456
+        for <student@example.com>; Mon, 16 Mar 2026 14:10:05 -0500
+Authentication-Results: mx.recipient.com;
+        spf=pass smtp.mailfrom=universityofwinnipeg.ca;
+        dkim=pass header.i=@universityofwinnipeg.ca header.s=selector1;
+        dmarc=pass action=none header.from=universityofwinnipeg.ca
+Received-SPF: pass (mx.recipient.com: domain of notifications@universityofwinnipeg.ca designates 142.132.10.25 as permitted sender)
+        receiver=mx.recipient.com; client-ip=142.132.10.25;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=universityofwinnipeg.ca;
+        s=selector1; h=from:to:subject:date:message-id; bh=abc123bodyhash; b=xyz456signature
+
+Dear Student,
+
+This is a confirmation that your registration for the Spring 2026 term has been processed successfully.
+
+If you have any questions, please contact Student Services through the official university website.
+
+Regards,
+University of Winnipeg Student Services
